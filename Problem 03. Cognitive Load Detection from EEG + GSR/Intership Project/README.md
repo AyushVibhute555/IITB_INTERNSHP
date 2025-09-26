@@ -1,3 +1,5 @@
+**Due to github Storage limit We are not able to upload .pkl file and Raw dataset also**
+
 Cognitive Load Detection from EEG & GSR Signals
 This project is an end-to-end machine learning pipeline designed to classify the cognitive load (task difficulty) experienced by students based on their physiological data, specifically Electroencephalography (EEG) and Galvanic Skin Response (GSR). The analysis uses a rich multimodal dataset to train, evaluate, and compare both classical machine learning and advanced deep learning models.
 
@@ -128,5 +130,6 @@ The deep learning models struggled more, which is common on smaller, noisy datas
 Feature Importance Analysis consistently revealed that:
 
 GSR (Skin Conductance): The mean and variance of the GSR signal are the strongest predictors, indicating that physiological arousal is a key marker of mental effort.
+
 
 EEG Theta and Alpha Bands: The mean power of these bands and their ratios (e.g., Theta/Alpha) were also highly influential, aligning with established neuroscience findings on attention and cognitive workload.
