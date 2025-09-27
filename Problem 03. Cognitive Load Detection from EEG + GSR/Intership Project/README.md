@@ -116,20 +116,3 @@ All required libraries are listed in the requirements.txt file.
 
 pip install -r requirements.txt
 
-4. Add Raw Data
-Place all 38 individual participant CSV files (e.g., 1_EEG.csv) inside the data/raw/ folder.
-
-5. Run the Notebooks Sequentially
-Open the notebooks folder in a Jupyter environment (like VS Code) and run the notebooks in order, from 00 to 06.
-
-📈 Results & Key Findings
-The Optimized LightGBM model (from notebook 03) emerged as the most effective and reliable classifier, achieving a final accuracy of ~71%.
-
-The deep learning models struggled more, which is common on smaller, noisy datasets and highlights the power of good feature engineering.
-
-Feature Importance Analysis consistently revealed that:
-
-GSR (Skin Conductance): The mean and variance of the GSR signal are the strongest predictors, indicating that physiological arousal is a key marker of mental effort.
-
-
-EEG Theta and Alpha Bands: The mean power of these bands and their ratios (e.g., Theta/Alpha) were also highly influential, aligning with established neuroscience findings on attention and cognitive workload.
