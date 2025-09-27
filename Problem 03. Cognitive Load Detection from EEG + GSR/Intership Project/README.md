@@ -109,14 +109,15 @@ cd project
 2. Create and Activate a Virtual Environment
 Create the environment
 python -m venv venv
- Activate it (Windows)
+Activate it (Windows)
 venv\Scripts\activate
- Activate it (macOS/Linux)
+Activate it (macOS/Linux)
 source venv/bin/activate
 
 3. Install Dependencies
 All required libraries are listed in the requirements.txt file.
 pip install -r requirements.txt
+
 
 
 
