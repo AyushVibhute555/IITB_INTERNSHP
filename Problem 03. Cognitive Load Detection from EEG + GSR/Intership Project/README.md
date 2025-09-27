@@ -59,34 +59,62 @@ The feature importances from the best model are analyzed to understand the key p
 An inference script demonstrates how to use the saved model to make predictions on new, hypothetical data.
 
 📂 Project Structure
+
 project/
+
 ├── data/
+
 │   ├── raw/
+
 │   │   ├── All_raw_data/
+
 │   │   │   ├── EEG.csv
+
 │   │   │   ├── GSR.csv
+
 │   │   │   └── PSY.csv
+
 │   │   ├── 1_EEG.csv
+
 │   │   ├── 1_GSR.csv
+
 │   │   └── ... (all 38 participant files)
+
 │   └── processed/
+
 │       ├── features_dataset.csv
+
 │       └── task_windows.pkl
+
 ├── models/
+
 │   ├── cnn_lstm_model.pt
+
 │   └── lgbm_model.pkl
+
 ├── notebooks/
+
 │   ├── 00_consolidate_raw_data.ipynb
+
 │   ├── 01_preprocessing.ipynb
+
 │   ├── 02_feature_engineering.ipynb
+
 │   ├── 03_modeling_baseline_classification.ipynb
+
 │   ├── 04_modeling_deep_timeseries.ipynb
+
 │   ├── 05_analysis.ipynb
+
 │   └── 06_inference_example.ipynb
+
 ├── requirements.txt
+
 └── README.md
 
+
 🚀 How to Run
+
 Follow these steps to set up and run the project on your local machine.
 
 Prerequisites:
@@ -115,4 +143,5 @@ source venv/bin/activate
 All required libraries are listed in the requirements.txt file.
 
 pip install -r requirements.txt
+
 
